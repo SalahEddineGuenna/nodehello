@@ -55,7 +55,7 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("From Container trigger");
+    return res.send("From Container trigger webhook");
 })
 
 app.get('/api', function (req, res) {
